@@ -95,6 +95,12 @@ nav {
     color: var(--primary-color);
 }
 
+@media (min-width: 768px) {
+    .nav-links a {
+        font-size: 1.125rem;
+    }
+}
+
 /* Hero Section */
 .hero {
     max-width: 1200px;

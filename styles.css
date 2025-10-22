@@ -196,7 +196,7 @@ section {
 
 @media (min-width: 768px) {
     .skills-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -255,7 +255,7 @@ section {
 
 @media (min-width: 768px) {
     .projects-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -365,10 +365,11 @@ section {
 
 /* Footer */
 footer {
-    background: var(--text-color);
-    color: white;
+    background: var(--bg-secondary);
+    color: var(--text-color);
     text-align: center;
     padding: 2rem;
+    border-top: 1px solid var(--border-color);
 }
 
 /* Responsive Design */

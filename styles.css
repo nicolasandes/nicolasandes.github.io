@@ -92,17 +92,10 @@ nav {
     color: var(--text-color);
     font-weight: 600;
     transition: color 0.2s;
-    position: relative;
 }
 
 .nav-links a:hover {
     color: var(--link-color);
-}
-
-.nav-links a::before {
-    content: '# ';
-    color: var(--text-light);
-    font-weight: 400;
 }
 
 @media (min-width: 768px) {
@@ -124,12 +117,6 @@ nav {
     color: var(--text-color);
     font-weight: 700;
     line-height: 1.2;
-}
-
-.hero h1::before {
-    content: '# ';
-    color: var(--text-light);
-    font-size: 2rem;
 }
 
 .hero p {
@@ -193,12 +180,6 @@ section {
     border-bottom: 1px solid var(--border-color);
 }
 
-.section-title::before {
-    content: '## ';
-    color: var(--text-light);
-    font-size: 1.75rem;
-}
-
 /* About Section */
 .about-content {
     max-width: 900px;
@@ -238,12 +219,6 @@ section {
     font-weight: 700;
 }
 
-.skill-card h3::before {
-    content: '### ';
-    color: var(--text-light);
-    font-size: 1rem;
-}
-
 .skill-list {
     list-style: none;
     color: var(--text-color);
@@ -254,12 +229,6 @@ section {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-}
-
-.skill-list li::before {
-    content: '-';
-    color: var(--text-light);
-    font-weight: bold;
 }
 
 .skill-list li i {
@@ -310,12 +279,6 @@ section {
     margin-bottom: 0.5rem;
     color: var(--text-color);
     font-weight: 700;
-}
-
-.project-content h3::before {
-    content: '### ';
-    color: var(--text-light);
-    font-size: 1rem;
 }
 
 .project-content p {
@@ -415,10 +378,6 @@ footer {
 
     .hero h1 {
         font-size: 2rem;
-    }
-
-    .hero h1::before {
-        font-size: 1.75rem;
     }
 
     .nav-links {
